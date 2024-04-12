@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 a {
     text-decoration: none;
@@ -42,7 +41,7 @@ h1 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-button {
+#sign1 {
     color: white;
     background-color: blue;
     border-radius: 5px;
@@ -51,7 +50,6 @@ button {
 }
 .inf-part {
     text-align: center;
-    margin-bottom: 50px;
     background-color: lightcoral;
 }
 .img-part {
@@ -71,4 +69,44 @@ button {
     padding-left: 300px;
     padding-right: 300px;
     font-size: 20px;
+    background-color: lightgray;
+}
+
+.contact {
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#border {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+    padding: 20px 30px;
+    color: white;
+}
+.contact2 {
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#sign2 {
+    border-color: white;
+    border-radius: 5px;
+    background-color: rgb(106, 106, 236);
+    padding: 3px 10px;
+    color: white;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    padding: 20px;
 }
