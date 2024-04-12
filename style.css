@@ -49,3 +49,26 @@ button {
     border: none;
     padding: 3px 10px;
 }
+.inf-part {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: lightcoral;
+}
+.img-part {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.inf-random {
+    max-width: 100px;
+}
+#quote {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 20px;
+}
