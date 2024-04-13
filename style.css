@@ -115,7 +115,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin: 30px 30px;
-    padding: 20px 30px;
+    padding: 40px 100px;
     color: white;
 }
 .contact2 {
@@ -138,4 +138,5 @@ h2 {
     justify-content: center;
     background-color: #1f2937;
     padding: 20px;
+    color: white;
 }
